@@ -22,6 +22,7 @@ pyautogui.press('enter')
 pyautogui.write(f"pip install {lib}")
 time.sleep(1)
 pyautogui.press('enter')
-
-
-
+time.sleep(15)
+pyautogui.write('exit')
+time.sleep(1)
+pyautogui.press('enter')
